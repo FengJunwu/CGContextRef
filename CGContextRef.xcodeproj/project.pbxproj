@@ -13,6 +13,7 @@
 		A468EB3D1FEA591F009C43A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A468EB3C1FEA591F009C43A9 /* Assets.xcassets */; };
 		A468EB401FEA591F009C43A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A468EB3E1FEA591F009C43A9 /* LaunchScreen.storyboard */; };
 		A468EB431FEA591F009C43A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A468EB421FEA591F009C43A9 /* main.m */; };
+		A468EB4B1FEA5982009C43A9 /* CGContextRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = A468EB4A1FEA5982009C43A9 /* CGContextRefView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A468EB3F1FEA591F009C43A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A468EB411FEA591F009C43A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A468EB421FEA591F009C43A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A468EB491FEA5982009C43A9 /* CGContextRefView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGContextRefView.h; sourceTree = "<group>"; };
+		A468EB4A1FEA5982009C43A9 /* CGContextRefView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextRefView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A468EB341FEA591E009C43A9 /* AppDelegate.m */,
 				A468EB361FEA591E009C43A9 /* ViewController.h */,
 				A468EB371FEA591F009C43A9 /* ViewController.m */,
+				A468EB491FEA5982009C43A9 /* CGContextRefView.h */,
+				A468EB4A1FEA5982009C43A9 /* CGContextRefView.m */,
 				A468EB391FEA591F009C43A9 /* Main.storyboard */,
 				A468EB3C1FEA591F009C43A9 /* Assets.xcassets */,
 				A468EB3E1FEA591F009C43A9 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A468EB4B1FEA5982009C43A9 /* CGContextRefView.m in Sources */,
 				A468EB381FEA591F009C43A9 /* ViewController.m in Sources */,
 				A468EB431FEA591F009C43A9 /* main.m in Sources */,
 				A468EB351FEA591E009C43A9 /* AppDelegate.m in Sources */,
@@ -281,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6E6U2NCH59;
 				INFOPLIST_FILE = CGContextRef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanglao.CGContextRef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6E6U2NCH59;
 				INFOPLIST_FILE = CGContextRef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanglao.CGContextRef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
